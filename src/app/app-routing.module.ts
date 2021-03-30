@@ -5,14 +5,13 @@ import { RegisterComponent } from './components/register/register.component';
 
 const routes: Routes = [
   {
-    path:'log in',
+    path:'My app',
     component:HomeComponent
   },{
-    path:'user',
+    path:'register',
     component:RegisterComponent
   }
- 
-];
+]
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
